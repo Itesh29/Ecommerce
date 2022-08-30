@@ -8,7 +8,6 @@ const Header = () => {
         <div className='header'>
             <div className='header-logo'>
                 <MdBusinessCenter className='title-logo'/>
-                <h1> Itesh Kumar </h1>
                 <h2 className='title'> eShop </h2>
             </div>
             <div className='header-search'>
