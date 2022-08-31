@@ -7,7 +7,7 @@ const Home = () => {
         
             <div className="home">
                 <div className="home-container">
-                    <img src="https://wallpaperaccess.com/full/6424671.jpg" className="home-img" alt="#"></img>
+                    <img src="https://wallpaperaccess.com/full/6424671.jpg" className="home-img" alt=""></img>
 
                     <div className="home-row">
                         <Product/>
