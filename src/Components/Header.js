@@ -5,8 +5,7 @@ import { MdBusinessCenter,MdOutlineShoppingBasket } from "react-icons/md";
 
 const Header = () => {
     return(
-        <div>
-            <div className='header'>
+        <div className='header'>
             <div className='header-logo'>
                 <MdBusinessCenter className='title-logo'/>
                 <h2 className='title'> eShop </h2>
@@ -29,7 +28,6 @@ const Header = () => {
                     <span className='line-two'> 0 </span>
                 </div>
             </div>
-        </div>
         </div>
     )
 }
