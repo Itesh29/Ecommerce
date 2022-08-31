@@ -64,6 +64,13 @@
     color: #ff9f00;
 }
 
+.nav-itembasket{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 
 
 

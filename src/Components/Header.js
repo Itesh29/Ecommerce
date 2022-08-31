@@ -23,7 +23,7 @@ const Header = () => {
                     <span className='line-one'> Your </span>
                     <span className='line-two'> Shop </span>
                 </div>
-                <div className='nav-item'>
+                <div className='nav-itembasket'>
                     <MdOutlineShoppingBasket className='cart-logo'/>
                     <span className='line-two'> 0 </span>
                 </div>
