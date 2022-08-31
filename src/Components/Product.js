@@ -2,19 +2,25 @@ import React from 'react'
 import './Product.css';
 
 
-const Product = () => {
+const Product = ({id,title,image,price,rating}) => {
     return(
         <div> 
             <div className='product'>
                 <div className='product-info'>
-                    <p> SAMSUNG 28 L Convection & Grill Microwave Oven  (MC28A5013AK, Black) </p>
+                    <p> {title} </p>
                     <p className='product-price'>
                         <small> $ </small>
-                        <strong> 30 </strong>
+                        <strong> {price} </strong>
                     </p>
-                    <div className='product-rating'>⭐</div>
+                    <div className='product-rating'>
+                        {Array(rating)
+                        .fill()
+                        .map((_,i) => (
+                            <p>⭐</p>
+                        ))}
+                    </div>
                 </div>
-                <img src='https://rukminim1.flixcart.com/image/832/832/l23mhzk0/microwave-new/2/x/h/ms23a301tak-samsung-23-original-imagdgmpy6pgsp6d.jpeg?q=70' className='product-img' alt='#'></img>
+                <img src={image}/>
                 <button> Add to Cart</button>
             </div>
         </div>
